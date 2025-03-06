@@ -1,0 +1,111 @@
+/* Основной контейнер */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Заголовок страницы */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Фото профиля */
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+}
+
+/* Блок информации о профиле */
+#profile-info {
+    margin-bottom: 30px;
+}
+
+/* Заголовки для информации */
+h3 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Обычный текст профиля */
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Кнопки */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Форма редактирования */
+#edit-form {
+    display: none;
+}
+
+/* Поля формы */
+input[type="text"], input[type="email"], input[type="file"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Выравнивание кнопок в форме */
+form div {
+    margin-bottom: 20px;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Тема формы редактирования */
+#edit-form button {
+    background-color: #007BFF;
+    color: white;
+}
+
+#edit-form button:hover {
+    background-color: #0056b3;
+}
